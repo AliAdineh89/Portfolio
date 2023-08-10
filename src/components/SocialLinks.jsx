@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -12,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ali-adineh-1802b3244/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +21,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/AliAdineh89",
     },
     {
       id: 3,
@@ -32,17 +31,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:ahoora.ali@gmx.at",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/lebenslaufAdineh.pdf",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
@@ -62,7 +51,6 @@ const SocialLinks = () => {
               href={href}
               rel=" noreferrer"
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
             >
               {child}
