@@ -7,26 +7,26 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const portfolios = [
-  {
-    id: 1,
-    src: arrayDestruct,
-  },
-  {
-    id: 2,
-    src: installNode,
-  },
-  {
-    id: 3,
-    src: navbar,
-  },
-  {
-    id: 4,
-    src: reactParallax,
-  },
-  {
-    id: 5,
-    src: reactSmooth,
-  },
+  // {
+  //   id: 1,
+  //   src: arrayDestruct,
+  // },
+  // {
+  //   id: 2,
+  //   src: installNode,
+  // },
+  // {
+  //   id: 3,
+  //   src: navbar,
+  // },
+  // {
+  //   id: 4,
+  //   src: reactParallax,
+  // },
+  // {
+  //   id: 5,
+  //   src: reactSmooth,
+  // },
   {
     id: 6,
     src: reactWeather,
